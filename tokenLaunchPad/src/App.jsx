@@ -16,6 +16,7 @@ import TokenLaunchPad from './components/TokenLaunchPad';
 const App = () => {
     // The network can be set to 'devnet', 'testnet', or 'mainnet-beta'.
     const network = WalletAdapterNetwork.Devnet;
+    
 
     return (
         <ConnectionProvider endpoint={"https://api.devnet.solana.com"}>
